@@ -1,0 +1,70 @@
+package Tugas5;
+
+public class Test {
+
+    public static void main(String[] args) {
+        Shape sh1 = new Shape();
+        System.out.println("SHAPE =");
+        System.out.println(sh1);
+        System.out.println("-----------------------------------");
+        Shape sh2 = new Shape("green", true);
+        System.out.println("SHAPE =");
+        System.out.println(sh2);
+        System.out.println("-----------------------------------");
+        Shape sh3 = new Shape();
+        sh3.setColor("pink");
+        sh3.setFilled(false);
+        System.out.println("SHAPE =");
+        System.out.println(sh3);
+        System.out.println("-----------------------------------");
+        Circle ci1 = new Circle();
+        System.out.println("CIRCLE =");
+        System.out.println(ci1);
+        Circle ci2 = new Circle(5.5, "blue", true);
+        System.out.println("CIRCLE =");
+        System.out.println(ci2);
+        Circle ci3 = new Circle();
+        ci3.setColor("brown");
+        ci3.setFilled(false);
+        ci3.setRadius(90);
+        System.out.println("CIRCLE =");
+        System.out.println(ci3);
+        Rectangle re1 = new Rectangle();
+        System.out.println("RECTANGLE =");
+        System.out.println(re1);
+        Rectangle re2 = new Rectangle(10, 31.5);
+        System.out.println("RECTANGLE =");
+        System.out.println(re2);
+        Rectangle re3 = new Rectangle(10.9, 15.7, "yellow", true);
+        System.out.println("RECTANGLE =");
+        System.out.println(re3);
+        Rectangle re4 = new Rectangle();
+        re4.setColor("orange");
+        re4.setFilled(false);
+        re4.setLength(8.6);
+        re4.setWidth(9.9);
+        System.out.println("RECTANGLE =");
+        System.out.println(re4);
+        Square sq1 = new Square();
+        System.out.println("SQUARE =");
+        System.out.println(sq1);
+        Square sq2 = new Square();
+        sq2.setColor("black");
+        sq2.setFilled(false);
+        sq2.setSide(5.5);
+        System.out.println("SQUARE =");
+        System.out.println(sq2);
+        Square sq3 = new Square();
+        sq3.setColor("gold");
+        sq3.setFilled(false);
+        sq3.setLength(5.5);
+        System.out.println("SQUARE =");
+        System.out.println(sq3);
+        Square sq4 = new Square();
+        sq4.setColor("gray");
+        sq4.setFilled(false);
+        sq4.setWidth(5.5);
+        System.out.println("SQUARE =");
+        System.out.println(sq4);
+    }
+}
